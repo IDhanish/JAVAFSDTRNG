@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+<script>
+var txt="";
+function message(){
+	try{
+		adddlert("Welcome guest!");
+	}
+	catch(err){
+		txt="There was an error on this page.\n\n";
+		txt+="Click ok to continue viewing this page.\n\n";
+		txt+="or cancel to return to the home page.\n\n";
+		if(!confirm(txt)){
+			document.location.href="https://www.w3schools.com/";
+		}
+	}
+}
+
+
+
+
+
+
+
+</script>
+<head>
+<meta charset="ISO-8859-1">
+<title>Insert title here</title>
+</head>
+<body>
+<h2>JavaScript Error Handling</h2>
+<input type="button" value="View message" onclick="message()" />
+
+</body>
+</html>

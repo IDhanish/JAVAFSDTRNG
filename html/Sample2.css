@@ -1,0 +1,13 @@
+@charset "ISO-8859-1";
+body{background: yellow;}
+p{
+	border: 2px solid powderblue;
+}
+*:after, *:before {
+	
+	box-sizing: border-box;
+	}
+	h1{
+	color: red; font-family: "italic"; font-size: 30px; }
+	p{
+	color: blue; font-family: "arial"; font-size: 18px;}

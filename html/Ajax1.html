@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="ISO-8859-1">
+<title>Insert title here</title>
+</head>
+<body>
+<p>Status:<span id="A1"></span></p>
+<p>Text:<span id="A2"></span></p>
+<p>Response:<span id="A3"></span></p>
+<button type="button" onclick="func()">SUBMIT</button>
+<script>
+function func(){
+const xhttp=new XMLHttpRequest();
+xhttp.onload=function(){
+	Document.getElementById("A1").innerHTML=abc;
+	Document.getElementById("A2").innerHTML=abc;
+	Document.getElementById("A3").innerHTML=abc;
+}
+xhttp.open("GET");
+xhttp.send();
+}
+</script>
+</body>
+</html>

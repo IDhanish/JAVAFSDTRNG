@@ -1,0 +1,19 @@
+@charset "ISO-8859-1";
+body{
+	font-family:Tahoma, Arial, sans-serif;
+	font-size: 13px;
+	color: red;
+	background: red;
+	margin: 8px;
+}
+h1{
+	font-size: 19px;
+	color: blue;
+	margin-top: 0px;
+	margin-bottom: 5px;
+	border-bottom: 1px solid black
+
+}
+.shaded{
+	background: yellow;
+}
