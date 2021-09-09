@@ -1,0 +1,22 @@
+<h2>Medicine Details</h2> 
+
+<hr/>
+<div *ngIf="medicine">
+  <div>
+    <label><b>Nedicine Name: </b></label> {{medicine.medName}}
+  </div>
+  <div>
+    <label><b>Quantity: </b></label> {{medicine.quantity}}
+  </div>
+  <div>
+    <label><b> Price: </b></label> {{medicine.price}}
+  </div>  
+</div>
+
+<br>
+<br>
+<button (click)="list()" class="btn btn-primary">Back to Medicine List</button><br>
+
+
+
+
